@@ -24,7 +24,7 @@ export default function FifaForm() {
     resolver: zodResolver(formSchema),
   });
 
-  const onSubmit = (data: any) => {
+  const onSubmit = (data: unknown) => {
     console.log("Form Data:", data);
   };
 
@@ -34,10 +34,10 @@ export default function FifaForm() {
         FIFA/CIES International Programme in Sports Management
       </h2>
       <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">
-        Dear Candidate, Thank you for your interest in the only FIFA Certified Sports Management Course in India, based in Mumbai.
+        {`Dear Candidate, Thank you for your interest in the only FIFA Certified Sports Management Course in India, based in Mumbai.
         The Pillai Group of Institutions has partnered with the World's Governing Body of Football (FIFA) and the International Center
         for Sports Studies (CIES) to conduct the prestigious FIFA/CIES International Programme in Sports Management at the Pillai
-        Campus in Navi Mumbai.
+        Campus in Navi Mumbai.`}
       </p>
       <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">
         It is a part-time post graduate diploma course certified by both FIFA and CIES and is conducted in four blocks
