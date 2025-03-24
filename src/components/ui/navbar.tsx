@@ -43,25 +43,7 @@ const Navbar = () => {
                     </svg>
                 </button>
 
-                {/* Navigation Menu */}
-                <NavigationMenu>
-                    <NavigationMenuList
-                        className={`${
-                            isMenuOpen ? "block" : "hidden"
-                        } md:flex space-x-6 md:space-x-6 absolute md:static top-12 left-0 w-full md:w-auto bg-[#015480] md:bg-transparent z-10`}
-                    >
-                        <NavigationMenuItem className="relative">
-                            <Link href="https://fifacies.pimsr.ac.in/" legacyBehavior passHref>
-                                <NavigationMenuLink
-                                    asChild
-                                    className="block text-white hover:bg-[#015480] hover:text-[#ffb606] px-4 py-2 md:px-0 md:py-0"
-                                >
-                                    <Link href="/news">Know More Details</Link>
-                                </NavigationMenuLink>
-                            </Link>
-                        </NavigationMenuItem>
-                    </NavigationMenuList>
-                </NavigationMenu>
+                
             </div>
         </div>
     );

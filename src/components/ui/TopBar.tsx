@@ -34,8 +34,8 @@ const TopBar = () => {
             FAQs
           </Link>
           <span className="hidden md:inline">|</span>
-          <Link href="https://fifacies.pimsr.ac.in/apply/" target="_blank" className="hover:underline">
-            APPLY
+          <Link href="https://fifacies.pimsr.ac.in/" target="_blank" className="hover:underline">
+          Know More Details
           </Link>
         </div>
       </div>
